@@ -28,7 +28,7 @@ export default function Navbar() {
           {!nav ? <IoMdMenu className="size-5"/> : <IoMdClose className="size-5" />}
         
         </button>
-        <div className={!nav ? "fixed right-[-100%]" : "fixed right-0 top-14 w-[40%]  h-full bg-primary-red text-white ease-in-out duration-300"}>
+        <div className={!nav ? "fixed right-[-100%]" : "fixed right-0 top-14 w-[40%] bg-primary-red text-white ease-in-out duration-300"}>
         <ul>
           <li className="p-4 border-b border-gray-600 delay-75 duration-300 ease-in mt-2">
             <a href="#">Sign Up</a>
